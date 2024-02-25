@@ -3,7 +3,7 @@
 // declaration
 // 1 задача
 function hello() {
-  document.body.innerHTML = "Hello";
+  document.body.innerHTML = "1 задача Hello";
 }
 hello();
 
