@@ -41,9 +41,9 @@ plusStrit(c, v);
 const m = +prompt("6 задача Введите число");
 function chetnoe(m) {
   if (m % 2 === 0) {
-    console.log("Число чётное");
+    alert("Число чётное");
   } else {
-    console.log("Число нечётное");
+    alert("Число нечётное");
   }
   return;
 }
@@ -54,9 +54,9 @@ const p = +prompt("7 задача Введите первое число");
 const o = +prompt("7 задача Введите второе число");
 function bigNumber(p, o) {
   if (p > o) {
-    console.log(p);
+    alert(p);
   } else {
-    console.log(o);
+    alert(o);
   }
 }
 bigNumber(p, o);
@@ -67,7 +67,7 @@ bigNumber(p, o);
 const name = prompt("9 задача Введите имя");
 const age = +prompt("9 задача Введите возраст");
 function nameAge(name, age) {
-  console.log(`Привет, ${name}! Тебе ${age} лет.`);
+  alert(`Привет, ${name}! Тебе ${age} лет.`);
 }
 nameAge(name, age);
 
@@ -76,12 +76,14 @@ const oneNumber = +prompt("10 задача Введите первое числ�
 const twoNumber = +prompt("10 задача Введите второе число");
 function bigNumber(oneNumber, twoNumber) {
   if (oneNumber <= 10 || twoNumber <= 10) {
-    console.log(oneNumber + twoNumber);
+    alert(oneNumber + twoNumber);
   } else if (oneNumber > twoNumber) {
-    console.log(oneNumber - twoNumber);
+    alert(oneNumber - twoNumber);
   } else if (oneNumber < twoNumber) {
-    console.log(twoNumber - oneNumber);
-  } else console.log("Что-то пошло не так");
+    alert(twoNumber - oneNumber);
+  } else {
+    alert("Что-то пошло не так");
+  }
 }
 bigNumber(oneNumber, twoNumber);
 
@@ -90,13 +92,13 @@ const baatir = +prompt("11 задача Введите номер квартир
 
 function batirNumber() {
   if (baatir <= 20) {
-    console.log("В первом подъезде");
+    alert("В первом подъезде");
   } else if (baatir <= 48) {
-    console.log("Во втором подъезде");
+    alert("Во втором подъезде");
   } else if (baatir <= 90) {
-    console.log("В третьем подъезде");
+    alert("В третьем подъезде");
   } else {
-    console.log("Условие не выполнено!");
+    alert("Условие не выполнено!");
   }
 }
 batirNumber();
@@ -144,9 +146,9 @@ batirNumber();
 // const m = +prompt("6 задача Введите число");
 // const chetnoe = function (m) {
 //   if (m % 2 === 0) {
-//     console.log("Число чётное");
+//     alert("Число чётное");
 //   } else {
-//     console.log("Число нечётное");
+//     alert("Число нечётное");
 //   }
 //   return;
 // };
@@ -157,9 +159,9 @@ batirNumber();
 // const o = +prompt("7 задача Введите второе число");
 // const bigNumber = function (p, o) {
 //   if (p > o) {
-//     console.log(p);
+//     alert(p);
 //   } else {
-//     console.log(o);
+//     alert(o);
 //   }
 // };
 // bigNumber(p, o);
@@ -170,7 +172,7 @@ batirNumber();
 // const name = prompt("9 задача Введите имя");
 // const age = +prompt("9 задача Введите возраст");
 // const nameAge = function (name, age) {
-//   console.log(`Привет, ${name}! Тебе ${age} лет.`);
+//   alert(`Привет, ${name}! Тебе ${age} лет.`);
 // };
 // nameAge(name, age);
 
@@ -179,12 +181,14 @@ batirNumber();
 // const twoNumber = +prompt("10 задача Введите второе число");
 // const difference = function (oneNumber, twoNumber) {
 //   if (oneNumber <= 10 || twoNumber <= 10) {
-//     console.log(oneNumber + twoNumber);
+//     alert(oneNumber + twoNumber);
 //   } else if (oneNumber > twoNumber) {
-//     console.log(oneNumber - twoNumber);
+//     alert(oneNumber - twoNumber);
 //   } else if (oneNumber < twoNumber) {
-//     console.log(twoNumber - oneNumber);
-//   } else console.log("Что-то пошло не так");
+//     alert(twoNumber - oneNumber);
+//   } else {
+//     alert("Что-то пошло не так");
+//   }
 // };
 // difference(oneNumber, twoNumber);
 
@@ -193,13 +197,13 @@ batirNumber();
 
 // const batirNumber = function () {
 //   if (baatir <= 20) {
-//     console.log("В первом подъезде");
+//     alert("В первом подъезде");
 //   } else if (baatir <= 48) {
-//     console.log("Во втором подъезде");
+//     alert("Во втором подъезде");
 //   } else if (baatir <= 90) {
-//     console.log("В третьем подъезде");
+//     alert("В третьем подъезде");
 //   } else {
-//     console.log("Условие не выполнено!");
+//     alert("Условие не выполнено!");
 //   }
 // };
 // batirNumber();
@@ -247,9 +251,9 @@ batirNumber();
 // const m = +prompt("6 задача Введите число");
 // const chetnoe = (m) => {
 //   if (m % 2 === 0) {
-//     console.log("Число чётное");
+//     alert("Число чётное");
 //   } else {
-//     console.log("Число нечётное");
+//     alert("Число нечётное");
 //   }
 //   return;
 // };
@@ -260,9 +264,9 @@ batirNumber();
 // const o = +prompt("7 задача Введите второе число");
 // const bigNumber = (p, o) => {
 //   if (p > o) {
-//     console.log(p);
+//     alert(p);
 //   } else {
-//     console.log(o);
+//     alert(o);
 //   }
 // };
 // bigNumber(p, o);
@@ -273,7 +277,7 @@ batirNumber();
 // const name = prompt("9 задача Введите имя");
 // const age = +prompt("9 задача Введите возраст");
 // const nameAge = (name, age) => {
-//   console.log(`Привет, ${name}! Тебе ${age} лет.`);
+//   alert(`Привет, ${name}! Тебе ${age} лет.`);
 // };
 // nameAge(name, age);
 
@@ -282,12 +286,12 @@ batirNumber();
 // const twoNumber = +prompt("10 задача Введите второе число");
 // const difference = (oneNumber, twoNumber) => {
 //   if (oneNumber <= 10 || twoNumber <= 10) {
-//     console.log(oneNumber + twoNumber);
+//     alert(oneNumber + twoNumber);
 //   } else if (oneNumber > twoNumber) {
-//     console.log(oneNumber - twoNumber);
+//     alert(oneNumber - twoNumber);
 //   } else if (oneNumber < twoNumber) {
-//     console.log(twoNumber - oneNumber);
-//   } else console.log("Что-то пошло не так");
+//     alert(twoNumber - oneNumber);
+//   } else {alert("Что-то пошло не так");}
 // };
 // difference(oneNumber, twoNumber);
 
@@ -296,13 +300,13 @@ batirNumber();
 
 // const batirNumber = () => {
 //   if (baatir <= 20) {
-//     console.log("В первом подъезде");
+//     alert("В первом подъезде");
 //   } else if (baatir <= 48) {
-//     console.log("Во втором подъезде");
+//     alert("Во втором подъезде");
 //   } else if (baatir <= 90) {
-//     console.log("В третьем подъезде");
+//     alert("В третьем подъезде");
 //   } else {
-//     console.log("Условие не выполнено!");
+//     alert("Условие не выполнено!");
 //   }
 // };
 // batirNumber();
